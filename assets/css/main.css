@@ -450,7 +450,7 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger {
-  top: 20px;
+  /* top: 20px; */
 }
 
 .header-area .main-nav .menu-trigger span,
@@ -590,9 +590,8 @@ Header Style
     flex-basis: 100%;
   }
   .header-area .main-nav .logo {
-    position: absolute;
-    left: 30px;
-    top: 0px;
+      margin-top:20px
+
   }
   .background-header .main-nav .logo {
     top: 0px;
@@ -1079,7 +1078,7 @@ section.our-team ul.nacc li .right-image {
 section.our-team ul.nacc li .right-image img {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  width: 370px;
+ 
   object-fit: cover;
   height: 297px;
 
@@ -2670,7 +2669,7 @@ Responsive Style
 @media (max-width: 767px) {
   section.our-team ul.nacc li .left-content {
       margin-right: 0px;
-      padding: 30px;
+    
   }
 }   
 body {
